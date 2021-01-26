@@ -7,7 +7,7 @@ import Chat from "./Chat";
 import Login from "./Login";
 
 function App() {
-  const [user, setUser] = useState("xkime");
+  const [user, setUser] = useState(null);
 
   return (
     <div className="app">
