@@ -27,7 +27,7 @@ function Login() {
     <div className="login">
       <div className="login__container">
         <img
-          src="https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/1200px-Slack_Technologies_Logo.svg.png"
           alt="slack logo"
         />
         <h1>Sign in to Slackjong</h1>
