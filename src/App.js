@@ -26,7 +26,7 @@ function App() {
                   <Chat />
                 </Route>
                 <Route path="/">
-                  <h1>Welcome back home</h1>
+                  <Chat />
                 </Route>
               </Switch>
             </div>

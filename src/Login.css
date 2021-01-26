@@ -25,3 +25,8 @@
   background-color: #0a8d48;
   color: #fff;
 }
+
+.login__container > button:hover {
+  background-color: #0a8d48;
+  opacity: 0.9;
+}

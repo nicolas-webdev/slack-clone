@@ -9,18 +9,19 @@ import ChatInput from "./ChatInput";
 
 function Chat() {
   const { roomId } = useParams();
-  const [roomDetails, setRoomDetails] = useState({});
+
+  const [roomDetails, setRoomDetails] = useState({ name: "Home" });
   const [roomMessages, setRoomMessages] = useState([]);
 
   useEffect(() => {
     if (roomId) {
       db.collection("rooms")
-        .doc(roomId)
+        .doc(roomId || "5OFQBdI6ibThz7timMvI")
         .onSnapshot((snapshot) => setRoomDetails(snapshot.data()));
     }
 
     db.collection("rooms")
-      .doc(roomId)
+      .doc(roomId || "5OFQBdI6ibThz7timMvI")
       .collection("messages")
       .orderBy("timestamp", "asc")
       .onSnapshot((snapshot) =>
