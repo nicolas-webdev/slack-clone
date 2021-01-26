@@ -11,6 +11,10 @@
   border-radius: 999px;
 }
 
+.message h4 {
+  padding-bottom: 6px;
+}
+
 .message__info {
   padding-left: 10px;
 }
