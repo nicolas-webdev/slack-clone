@@ -3,4 +3,10 @@ body {
   --hover-purple: #340e36;
   --light-purple: #421f44;
   --darker-purple: #49274b;
+  overflow: hidden;
+}
+
+.app__body {
+  display: flex;
+  height: 100vh;
 }
